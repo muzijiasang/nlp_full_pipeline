@@ -1,0 +1,17 @@
+# 基础依赖
+torch>=2.0.0
+pandas>=1.5.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+scikit-learn>=1.2.0
+tqdm>=4.65.0
+
+# NLP核心依赖
+transformers>=4.30.0
+evaluate>=0.4.0
+shap>=0.42.0
+
+# 可选（零样本预测功能用）
+accelerate>=0.20.0
+sentencepiece>=0.1.99
